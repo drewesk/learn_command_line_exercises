@@ -14,7 +14,7 @@
     
     Your answer goes here...
     
-### I ran pwd 20+ times saying 'print working directory' outloud. 
+### I ran pwd 60+ times saying 'print working directory' outloud. 
 ### The output was: /Users/Drew/workspace/davinci_coders_t3_2016/homework/learn_command_line_exercises
 ### I typed the open command on open ~/workspace/davinci_coders_t3_2016/homework/learn_command_line_exercises
 ### to see the location in finder.
