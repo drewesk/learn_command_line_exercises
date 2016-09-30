@@ -14,9 +14,9 @@
     
     Your answer goes here...
     
-### I ran pwd 60+ times saying 'print working directory' outloud. 
-### The output was: /Users/Drew/workspace/davinci_coders_t3_2016/homework/learn_command_line_exercises
-### I typed the open command on open ~/workspace/davinci_coders_t3_2016/homework/learn_command_line_exercises
+### I ran the command pwd in terminal 60+ times, saying 'print working directory' out-loud. 
+### The output was ' /Users/Drew/workspace/davinci_coders_t3_2016/homework/learn_command_line_exercises '
+### I opened the Finder icon on my dock, clicked the strategically placed 
+### davinci_coders_t3_2016 tab in the side bar,
+### opened the homework file, and lastly the learn_command_line _exercises file. 
 ### to see the location in finder.
-
-### No, seriously, type it 20 times and say it out loud. Sssh. Just do it.
