@@ -4,5 +4,6 @@
 
 ### Just like the last exercise, type this command 20 times and say it out loud.
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+>I typed `hostname` 20+ times and got output of my computers network name:
+> `Andrews-MacBook-Pro.local`
 
