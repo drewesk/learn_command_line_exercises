@@ -23,5 +23,6 @@
     I opened finder, and clicked on awesome.txt on my desktop. The file opened in the default text editor. 
     
 ### Notice how sometimes I put a / (slash) at the end of a directory? 
-### That makes sure the file is really a directory, so if the directory doesn't exist I'll get an error.
+
+> That makes sure the file is really a directory, so if the directory doesn't exist I'll get an error.
     
