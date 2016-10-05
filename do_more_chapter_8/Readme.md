@@ -27,18 +27,19 @@
 >`go Drew$ popd`,
 >`temp Drew$` 
 
-### And I'm back to temp!
+> And I'm back to temp!
     
 ### Explain to yourself the output that pushd and popd print out to you. Notice how it works like a stack?
 
-### I like to think of `pushd` as a lets move into the next directory but save a trail of crumbs
-### to find my way back to the last one. It's like cd but with an added rewind feature.
-### The output of `pushd` shows you that temporary list you can rewind through. 
+> I like to think of `pushd` as a lets move into the next directory but save a trail of crumbs
+> to find my way back to the last one. It's like cd but with an added rewind feature.
+> The output of `pushd` shows you that temporary list you can rewind through. 
 
-### I like to think of `popd` as the rewinding command through the created crumb trail. 
-### It backtracks to the last directory in the stack and pops the current one off of the list.
+> I like to think of `popd` as the rewinding command through the created crumb trail. 
+> It backtracks to the last directory in the stack and pops the current one off of the list.
 
-### You already know this, but remember that mkdir -p will make an entire path even if all the directories don't exist. That's what I did very first for this exercise.
+### You already know this, but remember that mkdir -p will make an entire path even if all the directories don't exist. 
+### That's what I did very first for this exercise.
 
 > `-p` option also works for rmdir I quickly discovered.
     
