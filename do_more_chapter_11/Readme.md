@@ -5,5 +5,6 @@
 
 ### Move a file in the newplace directory to another directory then move it back
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> temp Drew$ `mv newplace/awesome.txt awesome.txt`, moved up one level.
+> temp Drew$ `mv awesome.txt newplace/awesome.txt`, and back again.
     
