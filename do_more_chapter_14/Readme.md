@@ -5,9 +5,12 @@
 
 ### Clean up everything in temp from all the exercises so far
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
-    
+> `chapter_14 Drew$ ls ~/temp/`
+> `... ... ...`
+> `chapter_14 Drew$ rm -rf ~/temp/`
+> `chapter_14 Drew$ ls ~/temp/`
+> `    ` Pure destruction!!!
+
 ### Write in your notebook to be careful when running recursive remove on files
 
-    Please use markdown formatting to explain why you need to be careful.
-
+> `you could potentially unintentionally delete files and directories all at once.`
