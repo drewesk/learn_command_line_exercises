@@ -1,43 +1,46 @@
 
 If you're not already, please go into the checkpoint_5 directory.
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> `cd ../checkpoint5/`
 
 Show me the lines in foo.txt that have "ERROR" in them.
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> `grep ERROR *foo.txt | more`
+> Showed a scrollable list of all ERROR lines.
     
 Show me the lines in foo.txt that have "Synergistic" in them.
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> `grep Synergistic *foo.txt`
+> A list appears magically.
 
 What does the -i option to grep accomplish?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> Ignore case sensitivity.
 
 What option to ls tells it to output file size in human readable form?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> `ls -al` or `-l` as I remember from class.
 
 What does the -r and -f options to rm do exactly?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> `-r` Removes the hirearchy of files contained levels within a directory.
+> `-f` Remove without confirming permission to delete.
 
 What does the ifconfig command do?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> Show or configure the network ip address.
 
 What is your shell set to?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> Bash
 
 What directory are you in (don't use pwd this time)?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> `env` shows the PWD variable containing the current working directory.
 
 What is your home directory set to?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+
 
 Can you set your environment to have DEBUG set to true?
 
