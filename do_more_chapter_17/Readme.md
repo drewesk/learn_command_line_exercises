@@ -5,13 +5,15 @@
 
 ### Unix: Get your find index card and add this to the description side: "find STARTDIR -name WILDCARD -print". Next time you drill make sure you can say that phrase so you remember how find is formatted.
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> Created a real flashcard.
 
 ### You can put any directory where the . (dot) is. Try another directory to start your search there.
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> `find ~ -name "*ocuments" -print`
+> All files containing "ocuments" in the home directory were printed to the screen.
 
 ### Look for all the video files on your computer starting at the home drive and use the > to save the list to a file. Remember how you can do SOMECOMMAND > SOMEFILE.txt and it will write the output of SOMECOMMAND to the file SOMEFILE.txt?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
-    
+> `chapter_17 Drew$ find ~ -name "*.mp4" -print > ~/temp/file1.txt`
+> `chapter_17 Drew$ open ~/temp`   
+> All search items are in file1.txt
