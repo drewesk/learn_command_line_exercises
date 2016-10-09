@@ -19,18 +19,18 @@ Let's make a copy of foo/blah.txt and put it in the foo/bar/baz directory.
 
 What happens if you touch an existing file. 
 
-> You can't use `touch`, which is a way to create a blank file, to run on an existing file.
+> Using `touch` on a file changes the modification time to the current time.
 
-Can you copy the foo/blah.txt file to slash temp?
+Can you copy the foo/blah.txt file to /tmp?
 
-> `checkpoint_3 Drew$ cp foo/blah.txt ~/temp/` (all of my directories in commands have / at the end due to using autocomplete)
-> `ls ~/temp/`
+> `checkpoint_3 Drew$ cp foo/blah.txt /tmp` (all of my directories in commands have / at the end due to using autocomplete)
+> `ls ~/tmp`
 > `blah.txt ... ... ...`
 
 Can you copy .bash_profile in your home directory to the current directory? (Do not use cd here...)
 
 > `checkpoint_3 Drew$ chmod 755 ~/.bash_profile`
-> `checkpoint_3 Drew$ cp ~/.bash_profile ../checkpoint_3/`
+> `checkpoint_3 Drew$ cp ~/.bash_profile ./`
 > `checkpoint_3 Drew$ open .bash_profile`
 > Success!
 
