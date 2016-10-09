@@ -5,4 +5,5 @@
 
 ### Explain what the * symbol does in your own words
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
+> It is basically a search of anything containing the symbols and character you put after `*`.
+> The command will only run on the files that the search is specifying.
