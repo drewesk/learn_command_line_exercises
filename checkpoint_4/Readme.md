@@ -8,7 +8,7 @@ Remove everything in the foo directory using one command
 
 > `rm -rf foo/`
 > `ls`
-> `Readme.md color_preferences.txt`
+> `Readme.md   color_preferences.txt` foo dir is long gone!
 
 The following questions are about the file color_preferences.txt.
 
@@ -20,14 +20,18 @@ How many lines are there?
 
 How many teenagers are there?
 
-> `grep ["13".."19"] *.txt | wc -l` 
-> `602`
+> `grep -e [13..19] color_preferences.txt | wc -l` 
+I piped the output of the list to the word count command with -l.
+> `602` is the output.
     
 Copy the lines from color_preferences.txt to a file called teens.txt, but only include the lines where their age is 13-19.
     
-    Please use markdown formatting listing the command(s) you ran to accomplish this
-        
+> `grep -e [13..19] color_preferences.txt > teens.txt` directed the output to teens.txt.
+A file appears with all lines
+> `ls`
+> `Readme.md		color_preferences.txt	 teens.txt`
+       
 How many teenagers like the color purple?
 
-    Please use markdown formatting listing the command(s) you ran to accomplish this
-    
+> `grep -e purple teens.txt | wc -l`
+> `26` output of piping the grep -e search with keyword purple to the word count line option.     
