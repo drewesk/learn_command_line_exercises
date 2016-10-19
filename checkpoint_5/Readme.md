@@ -20,8 +20,9 @@ What does the -i option to grep accomplish?
 
 What option to ls tells it to output file size in human readable form?
 
-> `ls -l` outputs file size in HRForm and `-a` shows all files, even hidden. 
-> `ls -al` is the ultimate combo option.
+> `ls -lah` outputs files in HR form listing the order of size kb, mb, gb list order.
+> The Readme was 2.3 kilobytes at the moment of executing the command.
+
 
 What does the -r and -f options to rm do exactly?
 
@@ -34,17 +35,18 @@ What does the ifconfig command do?
 
 What is your shell set to?
 
-> `env`
-> `SHELL=/bin/bash`
+> `env | grep SHELL` pipe the results of all listed env variables to the grep search.
+> `SHELL=/bin/bash` voila, magic!
 
 What directory are you in (don't use pwd this time)?
 
-> `env` shows PWD var containing current working directory.
+> `env | grep PWD` pipe the results of all listed env vars to the grep search.
+> wizardry is upon us!
 
 What is your home directory set to?
 
-> `env`
-> `HOME=/Users/Drew`
+> `env | grep HOME` piped it to the grep search
+> `HOME=/Users/Drew` 
 
 Can you set your environment to have DEBUG set to true?
 
